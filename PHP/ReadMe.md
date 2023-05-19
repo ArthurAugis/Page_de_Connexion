@@ -35,6 +35,7 @@ Aucune configuration n'est requise pour exécuter ce projet.
 - HTML
 - CSS
 - JavaScript
+- PHP
 
 ## Auteurs
 
