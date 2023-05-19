@@ -1,52 +1,49 @@
-Projet de Page de Connexion et Page de Contact
-Ce projet de page de connexion et page de contact a été réalisé dans le cadre d'un travail scolaire. L'objectif de ce projet était de créer un système de connexion simple et une page de contact pour collecter certaines informations telles que les adresses IP et le nom du serveur.
+# Projet de Page de Connexion avec Page de Contact
 
-Fonctionnalités
-Page de Connexion: Cette page permet aux utilisateurs de se connecter en utilisant leurs identifiants.
-Page de Contact: Les utilisateurs peuvent accéder à une page de contact pour envoyer des messages ou des commentaires.
-Collecte d'informations: Le système collecte automatiquement les informations suivantes :
-Adresse IP de l'utilisateur
-Nom du serveur utilisé
-Configuration Requise
-Avant de commencer, assurez-vous d'avoir les éléments suivants installés/configurés :
+Ce projet a été réalisé dans le cadre d'un travail scolaire et consiste en une page de connexion avec une page de contact. L'objectif est de permettre aux utilisateurs de se connecter en fournissant leurs informations d'identification et de contacter l'administrateur du site via la page de contact. Le projet implémente également la fonctionnalité de récupération des adresses IP et du nom du serveur.
 
-Serveur web (Apache, Nginx, etc.)
-Langage de programmation (PHP, Python, etc.)
-Base de données (MySQL, PostgreSQL, etc.)
-Installation et Configuration
-Clonez ce dépôt dans votre répertoire local :
+## Fonctionnalités
 
-bash
-Copy code
-git clone https://github.com/votre-utilisateur/mon-projet.git
-Configurez votre serveur web pour pointer vers le répertoire racine du projet.
+- **Page de Connexion**: Les utilisateurs peuvent saisir leurs informations d'identification (nom d'utilisateur et mot de passe) pour se connecter à la plateforme. Les informations sont vérifiées côté serveur avant de permettre l'accès.
 
-Configurez les informations de connexion à la base de données dans le fichier config.php.
+- **Page de Contact**: Les utilisateurs peuvent utiliser la page de contact pour envoyer un message à l'administrateur du site. Le formulaire de contact collecte les informations telles que le nom, l'adresse e-mail et le message de l'utilisateur.
 
-Importez le fichier de la base de données fourni (database.sql) dans votre système de gestion de base de données.
+- **Récupération des Informations du Serveur**: Le projet implémente la récupération de certaines informations du serveur, y compris l'adresse IP et le nom du serveur.
 
-Lancez votre serveur web et accédez à l'URL correspondante dans votre navigateur.
+## Installation
 
-Structure du Projet
-Le projet est structuré de la manière suivante :
+1. Clonez ce dépôt sur votre machine locale.
+git clone https://github.com/votre-utilisateur/votre-projet.git
 
 bash
 Copy code
-├── css/                   # Fichiers CSS
-├── js/                    # Fichiers JavaScript
-├── images/                # Images et ressources graphiques
-├── includes/              # Fichiers d'inclusion
-├── config.php             # Configuration du projet
-├── database.sql           # Fichier de la base de données
-├── login.php              # Page de connexion
-├── contact.php            # Page de contact
-└── README.md              # Documentation du projet (ce fichier)
-Auteurs
-Ce projet a été réalisé par Votre Nom et Autre Auteur.
 
-N'hésitez pas à contribuer en ouvrant des issues ou des pull requests pour des améliorations ou des corrections de bugs.
+2. Accédez au répertoire du projet.
+cd votre-projet
 
-Licence
-Ce projet est sous licence MIT. Veuillez consulter le fichier LICENSE pour plus de détails.
+markdown
+Copy code
 
-Note: Ce projet est une démonstration et ne doit pas être utilisé dans un environnement de production sans une évaluation appropriée des mesures de sécurité.
+3. Ouvrez le fichier `index.html` dans votre navigateur web pour accéder à l'application.
+
+## Configuration
+
+Aucune configuration n'est requise pour exécuter ce projet.
+
+## Technologies Utilisées
+
+- HTML
+- CSS
+- JavaScript
+
+## Auteurs
+
+- [Votre Nom](https://github.com/votre-utilisateur) - Responsable du développement
+
+## Remerciements
+
+Nous tenons à remercier notre enseignant pour son soutien et ses conseils tout au long de ce projet.
+
+## Licence
+
+Ce projet est sous licence [MIT](LICENSE).
